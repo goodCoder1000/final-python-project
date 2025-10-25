@@ -22,4 +22,5 @@ for i in range(number_of_npcs): # running this loop however amount of characters
     for j in range(number_of_attributes): # running this loop however amount of attributes you wanted
         print("Attributes: " + random.choice(attributes))
     print("Height: " + str(height) + "'") # height print
-    print("Is tuff?: " + str(bool(tuff)) + "\n") # tuff print
+    print("Is tuff?: " + str(bool(tuff))) # tuff print
+    time.sleep(1)
