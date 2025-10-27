@@ -1,13 +1,13 @@
 import random; import math; import time
 print("\n--- NPC GENERATOR ---\n")
-time.sleep(2)
+time.sleep(1)
 
 x = 0 # placeholder
 number_of_npcs = 10
 
 number_of_attributes = int(input("How many attributes do you want per NPC (1-5): "))
 if number_of_attributes <= 5 and number_of_attributes >= 1:
-    x = 1 # buffer
+    x = 1 # buffer (this means everything is good (Basically just does nothing))
 else:
     print("BAD INPUT! RESTART!")
     exit() # kills project
