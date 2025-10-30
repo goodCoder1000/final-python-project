@@ -11,6 +11,9 @@ If you enter a value outside of the range that I specified, it tells you to rest
 ## The Complicated Code Explanation
 The script then randomly selects from two lists: one containing names and another containing attributes. Each NPC is also given a random height between **4.0 and 7.0 feet**, which is my float, a random boolean **“Is tuff?”**, which is obviously my boolean, which is value that determines their toughness (lol).
 
+height = random.randint(40, 70) / 10 # height randomizing<br>
+tuff = random.randint(0,2) # tuff randomizing
+
 Inside a loop running **10 times** (which is the number of NPCs being created), it prints the attributes. The number of attributes depends on how many you want (this is prompted at the start of the project). After this, it ***prints*** the **height** and indicates whether they are tough or not. Earlier, it only randomized the variable; it didn't print.
 
 # Libraries
