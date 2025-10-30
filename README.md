@@ -40,3 +40,6 @@ It also uses the time library just to make everything **cleaner**!
 ```py
 import time
 ```
+
+# Author
+My name is Ethan Fernandes. And I'm just an average avid coder! I love to code in many languages like Scratch, Python, Java, and especially C and C++! This project was a lot of fun, and pretty easy too haha!
