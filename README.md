@@ -26,7 +26,7 @@ tuff = random.randint(0,2)
 Inside a loop running **10 times** (which is the number of NPCs being created), it prints the attributes. The number of attributes depends on how many you want (this is prompted at the start of the project). After this, it ***prints*** the **height** and indicates whether they are tough or not.
 ```py
 print("Height: " + str(height) + "'") # height print
-    print("Is tuff?: " + str(bool(tuff))) # tuff print
+print("Is tuff?: " + str(bool(tuff))) # tuff print
 ```
 Earlier, it only randomized the variable; it didn't print.
 
